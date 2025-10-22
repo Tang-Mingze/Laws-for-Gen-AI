@@ -1,1 +1,1 @@
-We plan to create a dataset based on the laws, regulations, guidelines, and rules issued by various countries concerning generative AI, including only the specific provisions for which both positive and negative examples can be provided.
+We plan to create a dataset based on the laws, regulations, guidelines, and rules issued by various countries concerning generative AI, where for each provision we design one prompt along with one positive and one negative example.
