@@ -1,1 +1,10 @@
-We plan to create a dataset based on the laws, regulations, guidelines, and rules issued by various countries concerning generative AI, where for each provision we design one prompt along with one positive and one negative example.
+This project focuses on dataset construction based on two key AI regulations:
+
+1. **China — Interim Measures for the Management of Generative Artificial Intelligence Services**
+   Each provision in **（生成式人工智能服务管理暂行办法.txt）** is paired with a relevant **neutral prompt** and corresponding **positive and negative output examples**, all stored in **（Chinese_dataset.json）**.
+
+2. **European Union — AI Act**
+   All articles have been extracted and stored in **（Euro_AI_Act folder）**.
+   The **articles selected** for dataset construction are listed in **（Selected_articles_id.json）**, and these selected articles have been **split into individual provisions**, stored in **（Selected_articles_split.json）**.
+
+
