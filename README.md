@@ -33,7 +33,7 @@ the **European Union’s AI Act** and **China’s Interim Measures for the Manag
 * **Dataset file:**
   The file **`Euro_dataset.json`** is constructed based on **`Selected_articles_split_evaluated_yes.json`**, and contains:
 
-  * the provision text,
+  * the legal provision text,
   * a **neutral prompt**, and
-  * a pair of **positive and negative output examples** demonstrating alignment and conflict with the corresponding provision.
+  * a pair of **positive and negative output examples** demonstrating compliance and non-compliance with the rule.
 
