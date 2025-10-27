@@ -1,7 +1,7 @@
 # **Dataset Construction Based on AI Regulations (EU & China)**
 
 This project creates datasets derived from two key AI governance documents:
-the **European Union’s AI Act** and **China’s Interim Measures for the Management of Generative Artificial Intelligence Services**.
+the **European Union’s AI Act** and **China’s Interim Measures for the Management of Generative Artificial Intelligence Services(生成式人工智能服务管理暂行办法)**.
 
 ---
 
