@@ -1,11 +1,39 @@
-This project focuses on dataset construction based on two key AI regulations:
+# **Dataset Construction Based on AI Regulations (EU & China)**
 
-1. **China — Interim Measures for the Management of Generative Artificial Intelligence Services**
-   Each provision in **（生成式人工智能服务管理暂行办法.txt）** is paired with a relevant **neutral prompt** and corresponding **positive and negative output examples**, all stored in **（Chinese_dataset.json）**.
-   link of raw material: https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/202401/t20240109_493171.html
+This project creates datasets derived from two key AI governance documents:
+the **European Union’s AI Act** and **China’s Interim Measures for the Management of Generative Artificial Intelligence Services**.
 
-3. **European Union — AI Act**
-   All articles have been extracted and stored in **（Euro_AI_Act folder）**.
-   The **articles selected** for dataset construction are listed in **（Selected_articles_id.json）**, and these selected articles have been **split into individual provisions**, stored in **（Selected_articles_split.json）**.
-   link of raw material: https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng
+---
+
+## **1. China**
+
+* The file **（生成式人工智能服务管理暂行办法.txt）** in the `China` folder contains the *filtered provisions* from the regulation.
+  **Link to the original text:** [https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/202401/t20240109_493171.html](https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/202401/t20240109_493171.html)
+
+* **Filtering criterion:**
+  Each provision included in this file must allow for at least one **prompt** that can generate both a **positive** (compliant/supporting) and a **negative** (violating/conflicting) output example with respect to that provision.
+
+* **Dataset file:**
+  The file **`Chinese_dataset.json`** contains:
+
+  * the legal provision text,
+  * a **neutral prompt**, and
+  * a pair of **positive and negative output examples** illustrating compliance and non-compliance with the rule.
+
+---
+
+## **2. European Union**
+
+* The file **`Selected_articles_id.json`** in the `European Union` folder lists the *articles selected* from the **AI Act**.
+  **Link to the original text:** [https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng)
+
+* **Filtering criterion:**
+  Each article was evaluated as a whole to determine whether it allows for at least one **prompt** that can produce both **positive** and **negative** outputs related to compliance with the article. These selected articles were further **split into individual provisions**, stored in **`Selected_articles_split.json`**. Based on the same selection criteria as in the China section, the subset of provisions suitable for dataset construction was stored in **`Selected_articles_split_evaluated_yes.json`**.
+
+* **Dataset file:**
+  The file **`Euro_dataset.json`** is constructed based on **`Selected_articles_split_evaluated_yes.json`**, and contains:
+
+  * the provision text,
+  * a **neutral prompt**, and
+  * a pair of **positive and negative output examples** demonstrating alignment and conflict with the corresponding provision.
 
