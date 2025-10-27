@@ -7,7 +7,7 @@ the **European Union’s AI Act** and **China’s Interim Measures for the Manag
 
 ## **1. China**
 
-* The file **（生成式人工智能服务管理暂行办法.txt）** in the `China` folder contains the *filtered provisions* from the regulation.
+* The file **`（生成式人工智能服务管理暂行办法.txt）`** in the `China` folder contains the *filtered provisions* from the regulation.
   **Link to the original text:** [https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/202401/t20240109_493171.html](https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/202401/t20240109_493171.html)
 
 * **Filtering criterion:**
