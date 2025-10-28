@@ -37,3 +37,19 @@ the **European Union’s AI Act** and **China’s Interim Measures for the Manag
   * a **neutral prompt**, and
   * a pair of **positive and negative output examples** demonstrating compliance and non-compliance with the rule.
 
+---
+
+## **3. Japan**
+
+* The file **`Jp_articles`** in the `Japan` folder contains the *selected and cropped provisions* from the **Act on the Promotion of Research and Development and Utilization of AI-Related Technology (令和五年法律第五⼗三号)**.
+  **Link to the original text:** [https://laws.e-gov.go.jp/law/507AC0000000053](https://laws.e-gov.go.jp/law/507AC0000000053)
+
+* **Filtering criterion:**
+  Each provision included in this file was selected based on its suitability to be paired with a single **neutral prompt** that can generate both a **positive** (compliant/supporting) and a **negative** (violating/conflicting) output example with respect to that specific provision.
+
+* **Dataset file:**
+  The file **`Jp_AI_Promotion_Act_Dataset`** is constructed based on the filtered provisions and contains:
+
+  * the legal provision text (**content**),
+  * a **neutral prompt** (**prompt**), and
+  * a pair of **positive and negative output examples** (**pe** and **ne**) demonstrating compliance and non-compliance with the rule.
