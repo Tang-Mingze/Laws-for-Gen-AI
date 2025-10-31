@@ -50,6 +50,26 @@ the **European Union’s AI Act** and **China’s Interim Measures for the Manag
 * **Dataset file:**
   The file **`Jp_AI_Promotion_Act_Dataset`** is constructed based on the filtered provisions and contains:
 
-  * the legal provision text (**content**),
+  * the legal provision text,
   * a **neutral prompt** (**prompt**), and
   * a pair of **positive and negative output examples** (**pe** and **ne**) demonstrating compliance and non-compliance with the rule.
+
+---
+
+## **4. South Korea**
+
+* The file **`Kr_articles`** in the `South Korea` folder contains the *selected and refined provisions* from the **Artificial Intelligence Basic Act (인공지능 기본법)**.
+  **Link to the original text:** [https://www.law.go.kr/법령/인공지능%20발전과%20신뢰%20기반%20조성%20등에%20관한%20기본법/(20676,20250121)](https://www.law.go.kr/법령/인공지능%20발전과%20신뢰%20기반%20조성%20등에%20관한%20기본법/%2820676,20250121%29)
+
+* **Filtering criterion:**
+  Each provision in this file was selected based on whether it establishes *clear behavioral or procedural obligations* that can be translated into a **neutral prompt** and illustrated through **positive (compliant)** and **negative (non-compliant)** examples.
+  Provisions that were purely declarative, definitional, or lacked actionable obligations were excluded.
+
+* **Dataset file:**
+  The file **`South_Korea_AI_Basic_Act.json`** is constructed based on the filtered provisions and contains:
+
+  * the legal provision text,
+  * a **neutral prompt** (**prompt**), and
+  * a pair of **positive and negative output examples** (**pe** and **ne**) demonstrating compliance and non-compliance with the rule.
+---
+
