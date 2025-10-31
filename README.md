@@ -1,7 +1,6 @@
-# **Dataset Construction Based on AI Regulations (EU & China)**
+# **Dataset Construction Based on AI Regulations (EU, China, Japan & South Korea)**
 
-This project creates datasets derived from two key AI governance documents:
-the **European Union’s AI Act** and **China’s Interim Measures for the Management of Generative Artificial Intelligence Services(生成式人工智能服务管理暂行办法)**.
+This project builds unified datasets derived from major AI governance frameworks, including the European Union’s AI Act, China’s Interim Measures for the Management of Generative Artificial Intelligence Services (生成式人工智能服务管理暂行办法), Japan’s Act on the Promotion of Research and Development and Utilization of AI-Related Technology (令和五年法律第五十三号), and South Korea’s Artificial Intelligence Basic Act (인공지능 기본법). Each dataset entry pairs a legally actionable provision with a neutral prompt and a set of positive and negative examples illustrating compliance and non-compliance, enabling comparative research and model evaluation across different regulatory systems.
 
 ---
 
