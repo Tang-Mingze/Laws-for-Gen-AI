@@ -13,7 +13,7 @@
 
 **Source:**
 《生成式人工智能服务管理暂行办法》
-📄 **File:** `China/（生成式人工智能服务管理暂行办法.txt)`
+📄 **File:** `China/生成式人工智能服务管理暂行办法.txt`
 🔗 [Original text (Ministry of Justice)](https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/202401/t20240109_493171.html)
 
 **Filtering Criterion:**
@@ -110,7 +110,7 @@ Each record includes:
 AI_Regulation_Dataset/
 │
 ├── China/
-│   ├── （生成式人工智能服务管理暂行办法.txt）
+│   ├── 生成式人工智能服务管理暂行办法.txt
 │   └── Chinese_dataset.json
 │
 ├── European Union/
