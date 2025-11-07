@@ -128,14 +128,3 @@ AI_Regulation_Dataset/
     └── South_Korea_AI_Basic_Act.json
 ```
 
----
-
-## 💡 **Purpose and Use**
-
-This dataset supports:
-
-* **Cross-national regulatory comparison** of AI governance
-* **Benchmarking** model compliance understanding
-* **Fine-tuning / evaluation** of LLMs on *rule-based reasoning* tasks
-
----
